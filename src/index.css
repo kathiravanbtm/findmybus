@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #fff9e6;
+}
+
+.bg-cream {
+  background-color: var(--color-cream);
+}
+
+body {
+  @apply antialiased text-gray-900;
+}
